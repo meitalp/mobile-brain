@@ -135,7 +135,7 @@ if (isset($_POST['submit'])){
         $(".toggle").hide();
         $(".togglelink").on("click", function() {
          $(".toggle").show(1000);
-         $(".togglelink").hide(50);
+         $(".togglelink").hide(1000);
         });
       });
 
